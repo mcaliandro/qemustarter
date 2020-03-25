@@ -1,0 +1,23 @@
+type: object
+properties:
+  action:
+    type: string
+  name:
+    type: string
+  cores:
+    type: integer
+  ram:
+    type: integer
+  iso:
+    type: string
+  disk:
+    type: object
+    properties:
+      device:
+        type: string
+      image:
+        type: string
+      size:
+        type: integer
+      type:
+        type: string
